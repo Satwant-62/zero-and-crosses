@@ -1,0 +1,14 @@
+/*a game in which 2 players seek in alternate turns to complete a row, a column, or a diagonal with either 3 O's or 3 X's drawn in the spaces of a grid of nine squares */
+
+height: 70vh; //70% of viewport-height
+height: 70%; // les inturaktiv
+
+flex-wrap: wrap; // arange in single line
+
+border-radius: 1rem; //for curved corners
+
+box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3); //opacity
+
+height: 60vmin; //viewport minimum, sets the size of an element as % of the minimum value between the viewport width or height. For example, if the viewport is 1000px wide and 800px high, if we set the width of an element to 30vmin , it will be 30% of the height.
+
+border-radius: 1rem; // Rem (short for “root-em”) is a relative unit. sets an element's font size relative to the font size of the root element, typically <html>. The <html> element is referred to as the “root element” because all other page elements are nested inside it.

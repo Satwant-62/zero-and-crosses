@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #548687;
+    text-align: center;
+}
+
+.kontenu {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.matriks {
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vh;
+}
+
+.boks {
+    height: 18vh;
+    width: 18vh;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vh;
+    color: #f00;
+    background-color: #fff767;
+}
+
+#niw_butun {
+    padding: 0.8%;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 15%;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#masez_kuntenu {
+    height: 70vh;
+}
+
+#hqid {
+    display: none;
+}
